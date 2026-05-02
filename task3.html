@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Portfolio</title>
+
+    <link rel="stylesheet" href="task3.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h3>Hello, It's Me</h3>
+
+            <h1>Sakshi Shirole</h1>
+
+            <h3>And I'm a <span>Web Developer</span></h3>
+
+           <p>
+    I am passionate about creating attractive
+    and user-friendly websites. I enjoy learning
+    new technologies and building creative projects.
+</p>
+
+<div class="education">
+
+    <h3>Education</h3>
+
+    <ul>
+        <li>Masters in Computer Science (Pursuing)</li>
+        <li>Bachelor of Computer Science</li>
+    </ul>
+
+</div>
+
+<div class="experience">
+
+    <h3>Experience</h3>
+
+    <ul>
+        <li>Intern at Prodigy Infosys</li>
+    </ul>
+
+</div>
+
+<a href="#" class="btn">Read More</a>
+
+            <div class="social-media">
+
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+
+        </div>
+
+        <div class="home-img">
+
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAABU1BMVEXuS2j////puwY0OEP4z6PxuXz8/PxFRlLn5+g5PEfpvQDxS2k/QU3uR2XuSWnuUGXqrh8sOELuQmH+9/j6ztX/1acoMD/97O/oSmfyvYTtO1ztNVjgSWX7193wYnv3TGqgQlf0w43wWnSVQVX0laTyfpEjN0Hxb4X2rbfSSGL1oq/5xM384eXzhZdlPEtPTFD4u8W2RFvqxJy9oYWch3Xn5d7KpCBwPU6OfG2tlH3CRl4bKDvTspB8P1DsJ1Dn4tPrqC3o2q+HP1FFOkdXO0poX1t4bGMONj9aVVR8foRWWWKrrLDq2Mf9+eznwDHoz4H48NBMR0Hox1QTJkaJdDWagC7qzGlyREmmiSq6mCXsdFbtgk3qZVzrnzTu3KDrkzn32Lryw3jy0ZG1kGiOdFzYp3Q/T07HwcCTl5wAEihWTDPGu6J5aUDsikTva3XtuU/ut2AsYiygAAATYElEQVR4nMWd+X/aOBbAbUMAY6ABB0NOzpKQ5iRJE0JampCr01yT6WS3nTaTdna33W5nZ///n1aS5VuyJZm2bzqf6RBi9OUdenp+kiU5pswvlvL5vBRTwCVKi/NxxyLF+WV9Zak5W4oLYklptrm0ov8YmJQ+vzxGFCj5mebylJ76/jCVJ+2F2djmFcCZXWg/qXxnmMpUe2Fm7CgIZ0YcRwhGByjSN0FBONJCe0rId0RgVtrN+PErFCffbK98F5jK0sK3RTFxFpb5bY0XJjW1+O1RTJzFKd64xgmzslz6LigIp7TMaWtcMPqThVmu8Wga+AOkVtPQXzlxZppPuAIBD8xKW+OYI8HQq1J1br9ebx0dHdU3u13wYhXCsV+jpHEFAnYY4C3sJqZp1bnu5rPj0WikJhJFIOBvo7Xdo83uXJWDB2RsHMphhqksNVnVAgyqu98aFTsQImEL/L9iJ3Hc2uxW2U2u1FxiDmusMCurrLmLJgHTOj47c2G4pVg8Ozs+Qjxs18vPrrKaGhsMMDFGz9ek7ubRqEMhsYA6id16t8qqnFnWIM0Eo28szDCyVDefjYrhKCaPulbvMpvawhKT47DAVJabjCZW2z8aJRhQkKi7dWZTqzLlAwwwlTZjUqnVNo+ZUZB2juZqjDRSm4EmGmblMWP+okktHhSEc7xfY1NOPv84OgxEwsw3Wd1lbq3DhwJpOi1WU5tpRtJEwcwzu373mJ8FRuqjOVaahaiKRwTM1ALjTKl11zhNzKJJtFhpSgtTcWCmFlhnyq6AjY2dJhRmnl0vu2J6QTRqnXX+LIVbWhjM/CIry9yRMAqkGW0yT5+hlcIQmPlF1iRZq1Njsgr+iaY53melyYfR0GFWWPUiafsjqpGpKgtO5xmr2wDd0CM0FabSZtZL9VmI8+cgTqRqinX2JQ49F6DB6MvMhTFt8yxknDk1B9UDFRRCVRwxqyYvLdOyTgqMvsTOIvmMzDtoFagG/EmYSFSasyN21Ui0HJoMk3rCmieDTPnIa2Ro6OA/p+u2auBLSHIhFse8IJDyzSfk9Q0ZhnmCgR7jVQwYMRyycXpwYpgvpHNQEmk11H2KzxgTaIk+3RBhKo8ZEzIgtZbPyHImTD+5Z8Ik0jkTJ4d/RIEZsatGmnlMDAJEmDZ7dUyr+nIyNOqEsX5Q3sphvHQa0KTVtIo0RJUWu2qk2TYrzAZHpa+2OfIrJo2srFzuYTtLAM1AHFNBdNWsMQc0SLPBBrPC7vxAMy3vkMCwIUxxq5xM9i3AtCk5BESlGW1yqCZPWt0EYSqPecqW3V3viNIIxjhPJpPlg3NbNSYM1FCaamhqi6d8WyK4TRBmieOKUs2XyeDRDraSULYNr2owE41mlyMEAFmKhplnXcKYsumBUbFi1hFL+WDdqxosFEODBQGOT84H47MfpvKYh8Wf+3sVk0zuuX8QRcOxEjBpAobmg9GXeLzfv1i2FHPSwzC213gNjaYb5iWnCVP1pzU+GI6pnwCDFaNaigFeQ1YNxW/YFwJIAomAF0ZvczYp7B+7YHJYMXs9G8aea1hoimt8EUAqtfUQmKkq302+qtv/VXOQxrmjGDDXWKNWo2mKx5ww+eYUHYYnJ4OiVVuqnyWhbvdcML1Tw/1zN03AcUA44/p4kKOtVmgwqQ1OIwPBrOhhSYO/nB64WEB4zlEMLagcEM44YaTSRooCU2Fe9dswzoI5h4e37jYySNMfJKg0XuVw1JxsmMUKBWaZ9664A6NaLOp20i97dBq/crhhpNISGYZbMQ6MzWKc9gIwPWuyIdF4cZjrzg6MWzUumGX+3rHuLoSBi0tzJjTUXjkAk9xaD6Nx4bAX0V00yyQY9jqZI2iaUdWctVAxDggsID6rdJqcuQBCwlE+c2BcqnFgeJZklsBpBrOg0WwRWZK9bcfT/dNNLoerBhBmt8s/BtcyzYbh9xgwZ9aRkVmDyfXJLIBmzzcfOSzpnFOz4Z9oJI9qbJgnfPOlKfViwqmT5fpB52egyeVcBbW6wCBmnvhhdK7U34ZB/o+GYaxv01mS5Z69GvBkNmbRxmYpisDkH+s+mCmBq2AYzBKiF1M3hgvH5zR2BBCBkaQpHwxzmdwt1VbHZtkKZ4FRwHBwbOVg1cSCybe9MCt8i2UsdgJg+JMYovQTBOXk3KrptKoiMAsVDwx3JoPEWpoNzg+iUYAcrA8cGpzNeappYKIRGUd+2Q2jrwp1jnfRasYw9pK0mOw3tdOiWzkWDrzdgWOzwEQDovOq7oLhKPq7RNtHJnbyR4MNBQS15Pa6i8bGsTRTHAlMNOi2gAuGq1bmggEuk/vHPyeYYZLl8sGpJ7XEqZDtNcw3N72y5MCsrAq5jLZ/lj79Y2KCAwbOOP2ThEc7qgmDaDpiMHmzvw7BMPcu+GH+1e81AAwHC5SD7XPD8KjH1syZIIzZ7QBh9CXOOoYFs3naKwvAEHCsnEgUxiyhQZiKmJWBBGCvlxSCATj9E9XHg2C4qwCYBlU2JMGVDJTqEYbh8Rks5WRva289MfDxdI5EZk2rO0CCHZhCgRnA7GIzE4CBOMDaTs9zhltBnTUxmHxzQzdheMuYlsytnR+Iw5hy0N87yQ0GloaKI6EUACYBJkxlVWQpA2FG62CZPB0LBtrbwRbQkDEwkQRhUDlQEg7MkjbXyfWTcWEQUDn5TyBb/VNVFAYFZ4m/jmnDdM9UMwJMx4RJoq9kGqzg1A5/ScMUWNsEMEsClQwEs39mnBzAcYwHBjjQiXHGWTu3ZXYJwgi7DGwAgnbWEJpofILU28+Jzpqm00jyvGBglmpgnYkqmNOxnQZ+IQ10x6DD3qvllXxzHsIIKkaqwXJmDi4xxwEDLrGlwuUZz01at8xAmKnnojBwaYbuXzZiO810A98ALR6LwjyfAjCi/i/V0JoZLDMBTWzNgH/RbamiKgozuyRLOk9Dhkc0swHQ2GZcM4dLGd9iOxOFKT3WJV1026U2h7sZ2UsAISi9E1zrOBNLzuDWBwAjbGV2a+ZgvX8QVTULFZBAq1bdRjg2S7MARtj/nXJmYjCIY2vlvV+cElSHp7fJI891aUUYxt2b6TRliCjmxL0I4Omh88JUJJHbMiaMZyuDSrk1w6KYLfd92s6ucDjbkNrCc6a7OcOM0ILiLqnHmGhm2pJoZNbmRp4F7zr5DiCDYg7W3dcpjli3OvmltCox717wSW3f12ERvGfOKNve66iii4D8oiSaZmqb3jEkGIvnATk4911INDZDGLHfBJHZvzNDUDU+xSSKdVGnaUqiE26t5dua4e1mYpatc1+1qSgcm6vCMNKuf5+JWEDb81cCO89EUwBhFNLuP4G5xjvHmJrZFY0AwqJ5egAtQ+NOA3p+I+PaszU2GF/bPJIBdwzYHgSvwtV5Ph6YenAUCWq/CUXKW8SLCIczURapRdozZ5zz5AFOf73Xzpi3O48LZu4Z8Us1Tkk9WhQWp3/TKwK9TfFgumvEccBOQEaacnKb0qvN2xEcV/wbGhyBZUE26dN2OIyEw5ngTLNJgzHWGWn662Qj494T4EIRgtGqLcq3ytAShKRHZQHS4u47xTBCiaY2t0sdCZtuwlgSgjlAU2wJoHWD87+LRg1rPUOyrYawcLfRm5JvCi7OqC6DZJAI1025PyDM/A4Mf+c5glmUxFqA6iFbYY30y1evwu5yNBqfPv+UCFGNWhcZE1g2i9yd1arP6Ir56fOnjLwTcm+wMTEhy5lXL0NUcyQSAWbaQqWmsNM/Xn6CvRLDiYmJaSJOYxr8CLwllfn8E005YquA2Q2hIqBGcxkj8SqTklNy5mFigoiDUCYmHjIp8LZPL2kzjdAq4PmKWHk2sP7HLOlPYIypVCaTnDBlerphAzUwCexPyYC3AVt7SYkDHGcduGCECuda9Yh4NIOhfoIoQDGZxoRLppG4X2lkMuiN+ud/E2E6Ik4zK3RLo0Z2GaAXxAIUczERIRcIBuB8Jlpaca3LvaZBtzT4u4Bqm0SWnzCLy8qoksQwqdRnsp3xrzbhzSaR24B10qEZ6VfW+DLD6SiY6SF+L/Ab0pR1VufOGWc3RG7QanMkK1M/67IF04tiAfEs5dAQ7Yw7OM9Oidw617pqEMZ4mbFY5GEjGiapWzSpT4T5pqhyp2eleZGmhiqhlmHkLIcBMBcsMDaLnCIGAV47M5saeNtNtCrpkKmXtpGlUnqk/4Nw5rxdzpBUs8sZnM12E50zAmjd4PRvR2VzdDccioHyKriA5jofBIrZCMTdotUiWJlbMYDmIQrm0vN2kmp49wWZLVq8zXPVQMUchGW3YqBEGNqF9+3yq2B47uxyOQ1unuN0GuKRWU4os4YXSpP0v5ugmiJfjcZqa+RrONX892Wglb3yjS4l74RENFdYDgloHa7zQayGU32Do+GceMBk2q2Yy0s0Pnp6hmd/832Y5lPQZzo886bdCszVpK3th0+YlzfXd4cZXQ+JzyCS6Xrm8O76xg4D5OjMYWd2kzZP+7wmBbN/Y/DZ/oZvrrOKcr+TASk+LQ9IDkEmmtm5V7LK3Q2mkXXCyqZzxF5Ad9rnOTY2BFIZw0ioX6zgJB9eKUCuIUxmh5KhPWTQT6/hO29tmv98URO+vQEcKY1rYwNHcPa6P/j0n798ffMUD0m+QSzK7RCNlzzZTF+gHw5vFTeNfPj0zesvP3t52Ps1XVtO4Fm5jCxzx+Yus8Fg8MsAgPz65umVcnWDWcwBKsqhOV6infWQ2jKH+K2YRj7MZpWnb379+uVncGHcTl88Zg0B7s1AzNu0anXjl18GKqD4+vpXAKIoYAzKrRm/hneKB4ZsZ6ZibBjlbohooFLBpSDQr6+/fv36szoAn8R8D821TYt1A12h8LfXf3/z5unTp6Y9ZfG3i4ZzabNgpyEunhsXLpcxadBXcWleEX05inIFPuLNm7+//luhwDIu7wY6pq2NhcLbF+DDTFFccodgnOEpV0OqnSVNxQyvnHdfI73euq9of8qLtyw4pVXOTaeFR79N+iDs0UCYe9dQFBOGFAIeMIziutK97IdxQU3+9igSx7vpNHI7cEF7955MAkYFYQ6v3K/dm0O+CNQCGhjz2v1uGEDkO4Us2ez7d1o4jn87cMRG7UIBqIXyaeibvfF+sbcZSgjomT/I+N5+k5KvFdoHAOWE25p/o3b4FnrAQv0oIDfy5bXvJYqd4UkGWJlXri/le4UqkTT+LfShhxuE6kW5ugyw0OysYYa5jH/k2Xv9JuQTsspvITDBww3Cjp0ovA1jUa7kw8Brlp354hmeMTMBb786TIV8AtDNWzpN8NiJkANBCo9ehLEot6mrwGtXO0SnwVa2Q/gFwkXcNC/e0WhIB4JQj2opPPo9zGHANEMKREQ7o1kZlOtwGOV3WoQmHdVCVU3hXaiRgS+VSIh14FnV4EkmQwzDoTDA0CiqIR+iQzve6NH7cBYK4WEwnlmx7DB83BSa94/IMMTjjSiqiVQMRT4G7SyJreyjyPUoMaC0sEKEkZdI0bnwpxALyIbNkScDVjakTfYRNH8SFUM5EoyomsK78FBGl6CdDX3ZPycMyWvoh7WRapuFt+GhjC7XOATYdtbI+LN/PhiFYGf0Y/SIBxwKWpm9eHZu1lhWRsyPWWj+lPw0vtN0fUdP+hdpURNmmOCpZmjFsgx9kmGDmfRPNflqyNGTweJm4Z2olTkhoOFJmAXdH8IofqcJPxQ0eFyrsMsEphrL/UUmGQzz1scSflxr4CBd0cCMxAoBnlRG0P0RzZ8ezeSbEQfpBo44Fpr+sVzduFSDZ/8bYcXAJMDrMVFHHPsOn47j/4qTbUbkmMwwL9wRgOHwaW8NrfBILJfBgqMzXNXEjcsIxhvOGI4F9xzYHhPGqgY+ODlmnKt5YNgObHcfpR8X5tYqoOElZizFeGAYj9IHy7Tn44K5useqwVZ2H8P9vTCsDzlwPX4iLkz2DmsEO89dvKs5MOyPn3BytLgw9sQZd8L0wfA8GMROBGLDKFg1WDHxrmXDcD2yxX6YTnwYxaWaWKHMBcP5MB3rMUdjgHFUE1cxFgzvY46sB1DFh8k6qhmK56xuGP4HUOFHg41BM1Zxk1DGFIThfzSY2R0wDhhLNXE9BsMIPbQNPRpwLDC3ptfEC8sWjODj9BDNOGDM5DlOuuzACD/oEE43Y4GBGVq8rMyGEX8EpSxP/XccMLC6+XEMl8lO/jfGw0EBTazFmSW3w3EoBqw0Yz22VZYvxqGaq7u7+O4PFpoXEYONfNTxWGjGIdEsDA+hvvjrR2OY8r8xPIRaDt5K/iEyPZbHgwOaj2Ow+Hgy+XGHYaAsMHIqOfmDWXq03JIfRk49/FDH+euBiYURBoSBDz8qqmUnP1yQ12LCMPJOY5LSCfRtUbKTDTa18MDI+o8wtSyzifHByPLwQ9y1IrdMTkTOlIIwsl7+zlHtxQPD7CIIAzxn+nvicKmFH0aWv5/nvODwFkEYENa+C85fDS4LE4SBgWBS+ZahAFx68kN0WjkeGBClP3xT15n8wG1h4jAg94Q430Q5WYhyKTYqQRg5dflw/Q1wAMrHh0vG7GVsMAjn45hxEEpKFCUODMBJDZNjxMkqL5LDGCjxYCCPfPE/ZQyhDeaw7x/kOCRA/g85MuJrYVJLgwAAAABJRU5ErkJggg==" alt="profile">
+
+        </div>
+
+    </section>
+
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+
+            <img src="img.png" alt="about">
+
+        </div>
+
+        <div class="about-content">
+
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <h3>Frontend Developer</h3>
+
+            <p>
+                I am passionate about creating attractive
+                and user-friendly websites. I enjoy learning
+                new technologies and building creative projects.
+            </p>
+
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+
+    </section>
+
+
+    <section class="skills" id="skills">
+
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skills-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-react'></i>
+                <h3>React</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-box">
+
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1000" alt="">
+
+                <div class="project-layer">
+
+                    <h4>Portfolio Website</h4>
+
+                    <p>Responsive portfolio using HTML CSS JS.</p>
+
+                </div>
+
+            </div>
+
+            <div class="project-box">
+
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1000" alt="">
+
+                <div class="project-layer">
+
+                    <h4>Weather App</h4>
+
+                    <p>Weather app using API and JavaScript.</p>
+
+                </div>
+
+            </div>
+
+            <div class="project-box">
+
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000" alt="">
+
+                <div class="project-layer">
+
+                    <h4>Calculator</h4>
+
+                    <p>Modern calculator application project.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+
+                <input type="text" placeholder="Full Name">
+
+                <input type="email" placeholder="Email Address">
+
+            </div>
+
+            <div class="input-box">
+
+                <input type="number" placeholder="Mobile Number">
+
+                <input type="text" placeholder="Email Subject">
+
+            </div>
+
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-text">
+
+            <p>Copyright &copy; 2026 by Sakshi | All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+    <script src="task3.js"></script>
+
+</body>
+
+</html>
